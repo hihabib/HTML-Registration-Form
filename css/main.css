@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --primary: #144e49;
+}
+
+
+body {
+  background-color: var(--primary)
+}
+main {
+  display: flex;
+}
+
+.left {
+  flex-basis: 40%;
+  color: white;
+  padding: 20px;
+}
+
+.right {
+  flex-basis: 60%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 70px 0 0 70px;
+}
+h1 {
+  margin: 10px;
+}
+
+.sketch {
+  margin-left: 200px;
+  z-index: 1;
+  position: relative;
+}

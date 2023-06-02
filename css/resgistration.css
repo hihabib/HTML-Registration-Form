@@ -1,0 +1,148 @@
+.resgistration-title {
+  color: var(--primary);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.google-icon {
+  fill: var(--primary);
+}
+.facebook-icon {
+  fill: #3b5998;
+}
+.signin-with {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 23px;
+  border: 2px solid var(--primary);
+  padding: 10px;
+  border-radius: 9px;
+}
+.signin-with > span {
+  color: black;
+}
+
+.sso {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* .divider {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary)
+}
+.before, .after {
+    height: 2px;
+    width: 40%;
+    background-color: var(--primary);
+    display: inline-block;
+}
+.before {
+    margin-right: 10px;
+}
+.after {
+    margin-left: 10px;
+}
+ */
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.divider::after,
+.divider::before {
+  background-color: var(--primary);
+  height: 2px;
+  width: 50px;
+  display: inline-block;
+  width: 30%;
+}
+
+.divider::before {
+  content: "";
+  margin-right: 10px;
+}
+
+.divider::after {
+  content: "";
+  margin-left: 10px;
+}
+form {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+input,
+input:focus {
+  border: 0;
+  border-bottom: 1px solid var(--primary);
+  outline: none;
+  font-size: 23px;
+}
+
+::placeholder {
+  color: var(--primary);
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.nav-login {
+  color: var(--primary);
+  text-align: center;
+  margin-top: 30px;
+}
+.nav-login > a {
+  color: var(--primary);
+  font-weight: 700;
+}
+.language {
+  user-select: none;
+}
+.language > div {
+  color: var(--primary);
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.language > div > svg {
+  fill: var(--primary);
+}
+.language ul {
+  list-style: none;
+  right: 15px;
+  border: 1px solid var(--primary);
+  position: absolute;
+  display: none;
+}
+
+.language > ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+.language > ul li:hover {
+  background-color: rgb(203, 203, 203);
+}
+.show-language {
+  display: block!important;
+}
